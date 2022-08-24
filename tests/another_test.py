@@ -13,7 +13,7 @@ def return_false():
 
   
 def test_true(return_true):
-    assert return_true != True
+    assert return_true == True
 
 def test_false(return_false):
     assert return_false == False
